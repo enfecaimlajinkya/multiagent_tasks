@@ -1,0 +1,20 @@
+# Ignore virtual environments
+agentsenv/
+semanticenv
+*/semanticenv/
+*/agentsenv/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
