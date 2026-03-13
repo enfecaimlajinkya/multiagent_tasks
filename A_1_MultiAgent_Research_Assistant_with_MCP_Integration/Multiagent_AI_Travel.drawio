@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
+  <diagram name="Multi-Agent Workflow" id="kycmAFzRQBJb00t8pvE7">
+    <mxGraphModel dx="1088" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YUpiExbxcLeHiK-Pg0m7-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="User" vertex="1">
+          <mxGeometry height="30" width="95" x="243.75" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-6" edge="1" parent="1" source="YUpiExbxcLeHiK-Pg0m7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iVM768gKOyHxDZKtBe-7-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YUpiExbxcLeHiK-Pg0m7-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="&#xa;Streamlit UI&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="102.5" x="240" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-18" edge="1" parent="1" source="iVM768gKOyHxDZKtBe-7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iVM768gKOyHxDZKtBe-7-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="291" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="Langraph Workflow" vertex="1">
+          <mxGeometry height="40" width="102.5" x="240" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="&lt;br&gt;Planner Agent" vertex="1">
+          <mxGeometry height="40" width="102.5" x="338.75" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-4" edge="1" parent="1" source="YUpiExbxcLeHiK-Pg0m7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YUpiExbxcLeHiK-Pg0m7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="Create Search Plan" vertex="1">
+          <mxGeometry height="40" width="102.5" x="342.5" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-22" edge="1" parent="1" source="iVM768gKOyHxDZKtBe-7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="iVM768gKOyHxDZKtBe-7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="Research Agent" vertex="1">
+          <mxGeometry height="40" width="102.5" x="342.5" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-23" edge="1" parent="1" source="iVM768gKOyHxDZKtBe-7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iVM768gKOyHxDZKtBe-7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-24" edge="1" parent="1" source="iVM768gKOyHxDZKtBe-7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="iVM768gKOyHxDZKtBe-7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="MCP Tool (Web Search)" vertex="1">
+          <mxGeometry height="40" width="102.5" x="342.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="Duckduckgo tool" vertex="1">
+          <mxGeometry height="40" width="102.5" x="490" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-25" edge="1" parent="1" source="iVM768gKOyHxDZKtBe-7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iVM768gKOyHxDZKtBe-7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-26" edge="1" parent="1" source="iVM768gKOyHxDZKtBe-7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="iVM768gKOyHxDZKtBe-7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="LLM Answer" vertex="1">
+          <mxGeometry height="40" width="102.5" x="342.5" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="Groq LLM&lt;div&gt;&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;llama-3.3-70b-versatile&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="470" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-27" edge="1" parent="1" source="iVM768gKOyHxDZKtBe-7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="iVM768gKOyHxDZKtBe-7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="Postgresql Storage" vertex="1">
+          <mxGeometry height="40" width="102.5" x="342.5" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23f8cecc%3BstrokeColor%3D%23b85450%3BfontStyle%3D1%22%20value%3D%22Postgresql%20Storage%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2240%22%20width%3D%22102.5%22%20x%3D%22462.5%22%20y%3D%22680%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23f8cecc%3BstrokeColor%3D%23b85450%3BfontStyle%3D1%22%20value%3D%22Postgresql%20Storage%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2240%22%20width%3D%22102.5%22%20x%3D%22462.5%22%20y%3D%22680%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Final Output&lt;/span&gt;&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;2836&quot; data-end=&quot;3183&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="40" width="102.5" x="342.5" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iVM768gKOyHxDZKtBe-7-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="440" as="sourcePoint" />
+            <mxPoint x="320" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-21" edge="1" parent="1" source="iVM768gKOyHxDZKtBe-7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.462;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="iVM768gKOyHxDZKtBe-7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVM768gKOyHxDZKtBe-7-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=25;" value="Multi‑Agent Research Assistant with MCP Integration" vertex="1">
+          <mxGeometry height="60" width="720" x="60" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
