@@ -1,6 +1,7 @@
 from db_connection import cursor
 from embedding_utils import get_embedding
 
+
 def semantic_search(query):
 
     query_embedding = get_embedding(query)

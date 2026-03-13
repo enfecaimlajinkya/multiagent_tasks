@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
+  <diagram name="Page-1" id="COytpse9HLZer6X-2dDr">
+    <mxGraphModel dx="1034" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=25;" value="Semantic Search Engine with Vector Database" vertex="1">
+          <mxGeometry height="60" width="660" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-23" edge="1" parent="1" source="q5vbFuuZNRhPa3_pQ1Za-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q5vbFuuZNRhPa3_pQ1Za-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="Streamlit UI" vertex="1">
+          <mxGeometry height="30" width="120" x="220" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="Search Query" vertex="1">
+          <mxGeometry height="30" width="120" x="220" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-22" edge="1" parent="1" source="q5vbFuuZNRhPa3_pQ1Za-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q5vbFuuZNRhPa3_pQ1Za-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="User" vertex="1">
+          <mxGeometry height="30" width="120" x="220" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-26" edge="1" parent="1" source="q5vbFuuZNRhPa3_pQ1Za-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q5vbFuuZNRhPa3_pQ1Za-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="Keyword Search" vertex="1">
+          <mxGeometry height="30" width="120" x="500" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-27" edge="1" parent="1" source="q5vbFuuZNRhPa3_pQ1Za-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q5vbFuuZNRhPa3_pQ1Za-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="PostgreSQL Query&lt;br&gt;(ILIKE / Text Match)" vertex="1">
+          <mxGeometry height="40" width="120" x="500" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-34" edge="1" parent="1" source="q5vbFuuZNRhPa3_pQ1Za-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q5vbFuuZNRhPa3_pQ1Za-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="Query Embedding&lt;br&gt;   (Sentence Transformer -&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-weight: normal; white-space: pre;&quot;&gt;all-MiniLM-L6-v2&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="490" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="Keyword Results" vertex="1">
+          <mxGeometry height="30" width="120" x="500" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-33" edge="1" parent="1" source="q5vbFuuZNRhPa3_pQ1Za-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q5vbFuuZNRhPa3_pQ1Za-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="Semantic Search" vertex="1">
+          <mxGeometry height="40" width="120" x="510" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="PostgreSQL + pgvector&lt;br&gt;      Vector Similarity Search" vertex="1">
+          <mxGeometry height="50" width="146" x="497" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-36" edge="1" parent="1" source="q5vbFuuZNRhPa3_pQ1Za-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q5vbFuuZNRhPa3_pQ1Za-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="Top Similar Documents" vertex="1">
+          <mxGeometry height="40" width="130" x="495" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="Display Results Side-by-Side" vertex="1">
+          <mxGeometry height="40" width="132" x="494" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-37" edge="1" parent="1" source="q5vbFuuZNRhPa3_pQ1Za-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q5vbFuuZNRhPa3_pQ1Za-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="Semantic Results" vertex="1">
+          <mxGeometry height="30" width="120" x="500" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="369.5" as="sourcePoint" />
+            <mxPoint x="500" y="369.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-30" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="585" as="sourcePoint" />
+            <mxPoint x="280" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="q5vbFuuZNRhPa3_pQ1Za-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="585" as="sourcePoint" />
+            <mxPoint x="330" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5vbFuuZNRhPa3_pQ1Za-38" edge="1" parent="1" source="q5vbFuuZNRhPa3_pQ1Za-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.575;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" target="q5vbFuuZNRhPa3_pQ1Za-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
